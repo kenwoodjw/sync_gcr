@@ -16,7 +16,7 @@ def pull_image():
     name_list= get_filename()
     for name in name_list:
         new_name = "kenwood/" + name.split("/")[-1]
-        cmd = "docker tag {0} {1}".format(name, new_name)
+        cmd = "docker tag {0}   {1}".format(name, new_name)
         subprocess.call("docker pull {}".format(name), shell=True)
         subprocess.call(cmd, shell=True)
         subprocess.call("docker login -u kenwood -p qwer1234", shell=True)
