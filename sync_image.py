@@ -2,7 +2,7 @@
 import subprocess, os
 def get_filename():
     with open("images.txt", "r") as f:
-        lines = f.readlines()
+        lines = f.read().split('\n')
         # print(lines)
         return lines
 
