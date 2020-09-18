@@ -1,5 +1,5 @@
 # coding:utf-8
-import subprocess, os
+import subprocess, docker
 def get_filename():
     with open("images.txt", "r") as f:
         lines = f.readlines()
@@ -12,13 +12,14 @@ def get_filename():
 #         new_name = "kenwood/" + name.split("/")[-1]
 #         print(new_name)
 
+
 def pull_image():
     name_list= get_filename()
     for name in name_list:
         new_name = "kenwood/" + name.split("/")[-1]
         cmd = "docker tag {0}   {1}".format(name, new_name)
         subprocess.call("docker pull {}".format(name), shell=True)
-        os.system(cmd)
+        docker.from_env().images.get(name).tag(new_name)
         subprocess.call("docker login -u kenwood -p qwer1234", shell=True)
         subprocess.call("docker push {}".format(new_name), shell=True)
         
