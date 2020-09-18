@@ -24,3 +24,10 @@ quay.io/jetstack/cert-manager-cainjector:v0.11.0
 quay.io/jetstack/cert-manager-controller:v0.11.0
 quay.io/jetstack/cert-manager-webhook:v0.11.0
 seldonio/seldon-core-operator:1.2.1
+gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller:917164a
+gcr.io/tfx-oss-public/ml_metadata_store_server:v0.21.1
+gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui:917164a
+gcr.io/kubebuilder/kube-rbac-proxy:v0.4.0
+gcr.io/spark-operator/spark-operator:v1beta2-1.1.0-2.4.5
+gcr.io/kubeflow-images-public/katib/v1alpha3/katib-db-manager:917164a
+gcr.io.kubeflow-images-public.katib.v1alpha3.katib-ui
