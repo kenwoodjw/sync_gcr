@@ -1,6 +1,6 @@
-gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:c51023e62e351d5910f92ee941b4929eb82539e62636dd3ccb4a016d73e86b2e
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa@sha256:75da5ff75bc1e71799d039846b1bbd632343894c88feaa59914cfeeb1b213c81
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:998a405454832cda18a4bf956d26d610a2df2130a39b834b597a89a3153c8c15
-gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:1e77bdab30c8d0f0df299f5fa93d6f99eb63071b9d3329937dff0c6acb99e059
-gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio@sha256:61461fa789e19895d7d1e5ab96d8bb52a63788e0607e1bd2948b9570efeb6a8f
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:d07560cd5548640cc79abc819608844527351f10e8b0a847988f9eb602c18972
+gcr.io/knative-releases/knative.dev/serving/cmd/activator:v0.11.1
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v0.11.1
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v0.11.1
+gcr.io/knative-releases/knative.dev/serving/cmd/controller:v0.11.1
+gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio:v0.11.1
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v0.11.1
