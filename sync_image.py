@@ -16,11 +16,11 @@ def get_filename():
 def pull_image():
     name_list= get_filename()
     for name in name_list:
-        new_name = "registry.cn-hangzhou.aliyuncs.com/kflow/kubeflow/" + name.split("/")[-1]
+        new_name = "kenwood/" + name.split("/")[-1]
         cmd = "docker tag {0}   {1}".format(name, new_name)
         subprocess.call("docker pull {}".format(name), shell=True)
         subprocess.run(["docker", "tag", name, new_name])
-        subprocess.call("docker login -u 18079149711@163.com -p qwer1234 registry.cn-hangzhou.aliyuncs.com", shell=True)
+        subprocess.call("docker login -u kenwood -p qwer1234", shell=True)
         subprocess.call("docker push {}".format(new_name), shell=True)
         
 if __name__ == "__main__":
