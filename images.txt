@@ -1,1 +1,6 @@
-gcr.io/kfserving/sklearnserver:0.2.2
+gcr.io/knative-releases/knative.dev/serving/cmd/activator:v0.7
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v0.7
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v0.7
+gcr.io/knative-releases/knative.dev/serving/cmd/controller:v0.7
+gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio:v0.7
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v0.7
