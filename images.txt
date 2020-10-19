@@ -1,15 +1,1 @@
-gcr.io/knative-releases/knative.dev/serving/cmd/activator:v0.8.0
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v0.8.0
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v0.8.0
-gcr.io/knative-releases/knative.dev/serving/cmd/controller:v0.8.0
-gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio:v0.8.0
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v0.8.0
-gcr.io/knative-releases/knative.dev/serving/cmd/queue:v0.8.0
-mcr.microsoft.com/onnxruntime/server:v0.5.0
-gcr.io/kfserving/sklearnserver:0.2.0
-gcr.io/kfserving/xgbserver:0.2.0
-gcr.io/kfserving/pytorchserver:0.2.2
-nvcr.io/nvidia/tensorrtserver:19.05-py3
-gcr.io/kfserving/alibi-explainer:0.2.2
-gcr.io/kfserving/storage-initializer:0.2.2
-gcr.io/kfserving/logger:0.2.2
+gcr.io/kubeflow-images-public/admission-webhook:v20190520-v0-13-gcee39dbc-dirty-0d8f4c
